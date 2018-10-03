@@ -22,4 +22,4 @@ The script also changes the activity labels from their numeric values to their c
 The script then gets rid of duplicate column names and then selects only those which have `mean` and `std` in the name.
 It then creates a new table titled `meanstdData` which contains only the mean for each column grouped by subject ID and activity.
 
-Finally, the script writes `meanstdData` to `meanstdData.txt`.
+Finally, the script writes `meanstdData` to `tidydata.txt`.
